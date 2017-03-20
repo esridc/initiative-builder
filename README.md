@@ -14,13 +14,15 @@ The next step in the process is that the it takes every initiative in that list,
 
 After publishing the item, the script then looks for a folder of resources for that initiative, and if it finds one, it updates the newly created item with those resources. We can't attach the resources during the initial publish, because you can't attach resources to an item that hasn't been created yet.
 
-Finally the script writes two files to disk. It saves a copy of the data json to `/output/<initiative name>` and  writes a log of the items it's published and saves it to the '/archive' directory. 
+Finally the script writes two files to disk. It saves a copy of the data json to `/output/<initiative name>` and  writes a log of the items it's published and saves it to the `/archive` directory. 
 
 
 
 Issues:
 
 I'm still having issues publishing the data json with the item. What this mean is that I get what appears to be correct agol item that I can view the item page for, and which also populates the initiative gallery with a new initiative card. The images resources attached successfully to the item is indicated by the gallery card's icon being displayed on the card, or by the `size` key on the json screenshot.
+
+
 
 
 The API docs say that to publish the data, call the `add` method of the object, and pass in an "optional string, either a path or URL to the data". No variation of this as I understand it, has been successful for me to date. This means when I click on one of the newly created gallery cards, I receive an error message.
