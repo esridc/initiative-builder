@@ -1,0 +1,45 @@
+{
+  "title": "Will be set/intl'd at build time...",
+  "type": "Web Mapping Application",
+  "typeKeywords": [
+    "JavaScript",
+    "Map",
+    "Mapping Site",
+    "Online Map",
+    "selfConfigured",
+    "Web Map"
+  ],
+  "description": "Will be set/intl'd at build time",
+  "tags": [
+    "hub-initiative-template"
+  ],
+  "snippet": "Will be set/intl'd at build time",
+  "documentation": null,
+  "extent": [],
+  "spatialReference": null,
+  "accessInformation": null,
+  "licenseInfo": null,
+  "culture": "Will be set/intl'd at build time",
+  "properties": null,
+  "url": "",
+  "access": "private",
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "ownerFolder": null,
+  "protected": false,
+  "commentsEnabled": true,
+  "data": {
+    "source":"",
+    "values":{
+      "goal":"",
+      "configuredIndicators": [],
+      "groupName":"",
+      "groupDescription":""
+    }
+  }
+}

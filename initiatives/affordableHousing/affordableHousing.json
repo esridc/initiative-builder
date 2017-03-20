@@ -1,0 +1,49 @@
+{
+  "id": "affordableHousing",
+  "title": "Affordable Housing",
+  "description": "Families who pay more than 30 percent of their income for housing are considered cost burdened and may have difficulty affording necessities such as food, clothing, transportation and medical care. An estimated 12 million renter and homeowner households now pay more than 50 percent of their annual incomes for housing. A family with one full-time worker earning the minimum wage cannot afford the local fair-market rent for a two-bedroom apartment anywhere in the United States.",
+  "snippet": "Families who pay more than 30 percent of their income for housing are considered cost burdened and may have difficulty affording necessities such as food, clothing, transportation and medical care. An estimated 12 million renter and homeowner households now pay more than 50 percent of their annual incomes for housing. A family with one full-time worker earning the minimum wage cannot afford the local fair-market rent for a two-bedroom apartment anywhere in the United States.",
+  "capabilities": {
+    "calendar": true,
+    "forum": true,
+    "openObservatory": true
+  },
+  "source": "U.S. Housing and Urban Development (HUD)",
+  "link": "http://portal.hud.gov/hudportal/HUD?src=/program_offices/comm_planning/affordablehousing/",
+  "steps": [
+    {
+      "id": "inform",
+      "title": "Inform the Public",
+      "order": 1,
+      "prefix": "1",
+      "description": "Provide members of the public with the information they need to understand the project, the decision process, and also to provide feedback on how public input influenced the decision.",
+      "tags": [
+        "affordableHousingStepInform"
+      ]
+    },
+    {
+      "id": "listen",
+      "title": "Listen to the Public",
+      "order": 2,
+      "prefix": "2",
+      "description": "Two-way communication and collaborative problem solving with the goal of achieving better and more acceptable decisions.",
+      "tags": [
+        "affordableHousingStepListen"
+      ]
+    },
+    {
+      "id": "monitor",
+      "title": "Monitor Progress",
+      "order": 3,
+      "prefix": "3",
+      "description": "Establish performance measures that incorporate the publics perspective.",
+      "tags": [
+        "affordableHousingStepMonitor"
+      ]
+    }
+  ],
+  "objective": "Healthy Community",
+  "tags": [
+    "hub-objective-healthy-community"
+  ]
+}

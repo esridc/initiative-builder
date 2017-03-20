@@ -1,0 +1,42 @@
+{
+    "source": "",
+    "values": {
+        "configuredIndicators": [],
+        "goal": "",
+        "groupDescription": "",
+        "groupName": "",
+        "initiativeType": "customInitiative",
+        "steps": [
+            {
+                "description": "Provide members of the public with the information they need to understand the project, the decision process, and also to provide feedback on how public input influenced the decision.",
+                "id": "inform",
+                "order": 1,
+                "prefix": "1",
+                "tags": [
+                    "affordableHousingStepInform"
+                ],
+                "title": "Inform the Public"
+            },
+            {
+                "description": "Two-way communication and collaborative problem solving with the goal of achieving better and more acceptable decisions.",
+                "id": "listen",
+                "order": 2,
+                "prefix": "2",
+                "tags": [
+                    "affordableHousingStepListen"
+                ],
+                "title": "Listen to the Public"
+            },
+            {
+                "description": "Establish performance measures that incorporate the publics perspective.",
+                "id": "monitor",
+                "order": 3,
+                "prefix": "3",
+                "tags": [
+                    "affordableHousingStepMonitor"
+                ],
+                "title": "Monitor Progress"
+            }
+        ]
+    }
+}
