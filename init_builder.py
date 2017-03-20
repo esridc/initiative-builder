@@ -3,11 +3,9 @@ import requests
 import json
 import os
 import itertools
-# import urllib
 import argparse
 from tqdm import tqdm
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-import pdb
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
@@ -74,6 +72,10 @@ def list_json_files(dir):
 
 
 def confirm_path(path):
+    """
+    this function confirms that all directories in a given path exist
+    and in the event that they don't it makes them.
+    """
     dir = os.path.dirname(path)
     if not os.path.exists(dir):
         os.makedirs(dir)
@@ -86,7 +88,7 @@ parser.add_argument("o", help="the organization url")
 parser.add_argument("f", help="enter path to the initiatives")
 args = parser.parse_args()
 
-token = generateToken(args.u, args.p)
+# token = generateToken(args.u, args.p)
 
 
 # creates a GIS object for using the python api
@@ -108,7 +110,6 @@ for item in folder_of_initiatives:
             print(initiative['id'])
 
 # creates ready to publish initiative item files
-
 archiveList = []
 
 for folder in tqdm(folder_of_initiatives):
@@ -135,7 +136,6 @@ for folder in tqdm(folder_of_initiatives):
     with open('./output/{}/{}-{}.json'.format(user_initiative['id'], user_initiative['id'], 'en-us'), 'w+') as outfile:
 
         json.dump(final_initiative['data'], outfile, sort_keys=True, indent=4, ensure_ascii=False)
-        # print(outfile)
 
     x = '{}.json'.format(final_initiative['id'])
     temp = org.content.add(item_properties={"type": final_initiative['type'],
@@ -178,22 +178,3 @@ for item in archiveList:
     # pdb.set_trace()
     with open('./archive/dev-initiatives.json', 'w+') as archiveFile:
         json.dump(item, archiveFile, sort_keys=True, indent=4)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
